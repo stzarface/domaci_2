@@ -1,0 +1,17 @@
+body	{
+	width: 100%;
+	margin:auto;
+	background-image: url(../images/vintage-leaves.png);	
+}
+
+#allcontent	{
+	width: 60%;
+	margin: auto;
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+	font-size: 1.1em;
+	background-image: url(../images/jova-jovanovic-zmaj.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	
+}

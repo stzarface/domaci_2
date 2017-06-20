@@ -1,0 +1,109 @@
+body	{
+	font-family: 'Droid Sans Mono', monospace;
+	width: 100%;
+	margin: auto;
+
+	
+	/*background sa sajta http://lea.verou.me/css3patterns/#carbon*/
+	background:
+		linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+		linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+		linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+		linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+		linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+		linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+		background-color: #131313;
+		background-size: 20px 20px;
+		margin: 0;
+}
+	
+#allcontent	{
+	width: 65%;
+	position: relative;
+	margin: 0 auto;
+	padding: 40px 50px 10px 50px;
+	background-color: rgba(194, 183, 183, 0.85);
+}
+
+
+a	{
+	text-decoration: none;
+	font-style: italic;
+}
+
+a:link	{
+	color: rgb(15, 12, 90);
+}
+
+a:visited {
+    color: rgba(68, 7, 100);
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    color: blue;
+}
+
+h1, h2, h3	{
+	font-family: 'Fjalla One', sans-serif;
+	text-align: center;
+	font-size: 1.75em;
+	font-style: italic;
+	
+}
+
+h1	{
+	font-size: 2.5em;
+	padding-bottom: 30px;
+}
+
+h2	{
+	font-size: 2.1em;
+}
+
+div	{
+	padding-bottom: 10px;
+}
+
+/* hr stilizacija sa https://css-tricks.com/examples/hrs/*/
+hr	{
+	width: 90%;
+	margin-top: 40px;
+	border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+#ftr, figure	{
+	text-align: center;
+}
+
+footer	{
+	position: absolute;
+	background-color: rgb(19, 15, 15);
+	padding: 20px 0 20px 0;
+	width: 100%;
+	margin: auto; 
+}
+
+footer p {
+	color: white;
+}
+
+.myName	{
+	font-style: italic;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    
+}
+
+table, tr, th, td 	{
+	border: 1px solid grey;
+}
